@@ -1,0 +1,53 @@
+<?php
+error_reporting(E_ALL ^ E_NOTICE);
+$nombre= $_REQUEST['nombre'];
+$dpi = $_REQUEST ['dpi'];
+$edad = $_REQUEST ['edad'];
+$fecha = $_REQUEST ['date'];
+$sexo =$_REQUEST ['sexo'];
+$correo = $_REQUEST['correo'];
+$estado= $_REQUEST['estado'];
+
+echo "<head>";
+echo "<title>RESPUESTA</title>";
+echo "<link rel=stylesheet  href=css/php1.css>";
+
+echo "</head>";
+echo "<body>";
+echo "<h2>DATOS RECIBIDOS</h2>";
+echo "<div id=main-container>";
+echo "<table>";
+echo "<thead>";
+echo "<tr>";
+echo "<th>CAMPO</th>";
+echo "<th>RESPUESTA</th>";
+echo "</tr>";
+echo "</thead>";
+echo "<tr>";
+echo "<td>Nombre</td>";
+echo "<td> $nombre </td>";
+echo "</tr>";
+echo "<tr>";
+echo "<td>DPI</td>";
+echo "<td>$dpi </td>";
+echo "</tr>";
+echo "<tr>";
+echo "<td>Edad</td>"; 
+echo "<td>$edad</td>";
+echo "</tr>";
+echo "<tr>";
+echo "<td>Sexo</td>"; 
+echo "<td>$sexo</td>";
+echo "</tr>";
+echo "<tr>";
+echo "<td>Correo</td>"; 
+echo "<td>$correo</td>";
+echo "</td>";
+echo "<tr>";
+echo "<td>Estado Civil</td>";
+echo "<td> $estado </td>";
+echo "</tr>";
+echo "</table>";
+echo "</div>";
+echo "</body>";
+?>

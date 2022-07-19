@@ -1,0 +1,130 @@
+html{
+	font-size:20px;
+	font-family:'Lato',sans-serif;
+}
+
+body{
+	font-family:Arial;
+	background-color: #18A383;
+	box-sizing: border-box;
+}
+
+.container{
+	max-width: 450px;
+	height: auto;
+	background-color: #EFEFEF;
+	margin: 5% auto;
+	padding-bottom: 1rem;
+}
+
+.form_top{
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+	border-top: solid .rem #F39B53;
+	margin-bottom: 1rem;
+}
+
+.form_top h2 {
+	font-weight: bold;
+	color: #CAC8C8;
+	font-size: 25px;
+} 
+
+h2 span {
+	color: #F39B53;
+}
+
+.form_reg {
+	border-radius: 10px;
+	padding: 0 2rem;
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+input{
+	background-color: #EFEFEF;
+	padding: .5rem;
+	margin: .5rem 0;
+    border: none;
+    transition: all .5s;	
+}
+
+.input:focus {
+	border-bottom: solid #F39B53 .2rem;
+}
+
+.
+		.botones{
+			text-align: center;
+		}
+		
+		.btn{
+		border-radius:3px;
+		display: inline-black;
+		padding: 20px 15px;
+		text-decoration: none;
+		text-shadow:0 1px 0 rgba(255,255,255,0.3);
+		box-shadow: 0 1px 1px rgba(0,0,0.0.3);
+		width: 375px;
+		}
+		
+		
+		.btn-green{
+		color: white;
+		background-color: #3CC93F;
+		}
+		
+		.btn-green:hover{
+		background-color:#37B839;	
+		}
+		
+		.btn-gren:active{
+		background-color: #29962A;	
+		}
+		
+		.boton{
+		border-radius:3px;
+		display: inline-black;
+		padding: 20px 15px;
+		text-decoration: none;
+		text-shadow:0 1px 0 rgba(255,255,255,0.3);
+		box-shadow: 0 1px 1px rgba(0,0,0.0.3);
+		width: 375px;
+		}
+		
+		
+		.btn-red{
+		color: white;
+		background-color: #ED2638;
+		
+		}
+		
+		.btn-red:hover{
+		background-color:#FF0000;	
+		}
+		
+		.btn-gren:active{
+		background-color: #29962A;	
+		}
+		
+		
+		form{
+		
+			border-radius: 3px;
+			color: #999;
+			font-size: 0.8em;
+			padding: .2rem;
+			margin: 0 auto;
+			width: 370px;
+		}
+		
+		.button{
+		text-align:center;
+		
+		}
+		
+		
+		

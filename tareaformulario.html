@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,
+	initial-scale=1.0">
+	<link rel="shortcut icon" type="imagen/x.icon"
+     href="imagenes/respuesta.ico">
+	<link rel="stylesheet"  href="css/ejercicioformulario.css">
+	
+	<title>FORMULARIO</title>
+</head>
+<body>
+<div class="container"> 
+ <div class="form_top">
+    <h2>FORMULARIO <span>REGISTRO</span></h2>
+  </div>
+  <form style="font-family:Comic Sans MS" class="form_reg" action="formulario.php" method="GET">
+	  <input class="input" type="text" placeholder="&#128100;
+	  NOMBRE" name="nombre" required autofocus>
+	  <input class="input" type="number" placeholder="&#128101;
+	  DPI" name="dpi" required>
+	  <input type="number" name="edad" min="18" class="input" placeholder="&#128286;
+	  EDAD" required>
+	  <input class="input" type="date" placeholder="&#127874;
+	  FECHA DE NACIMIENTO" name="date" required>
+	  <input class="input" type="email" placeholder="&#9993;
+	  Correo Electronico" name="correo"><BR>
+	 <p style="font-family:Comic Sans MS">Estado Civil</p>
+	 <p ><input type="radio" name="estado"  
+	   value="SOLTERO" class="input"  required>&#128107;SOLTERO 
+	   </p>
+	  <p><input type="radio" name="estado" 
+	  value="CASADO" class="input"  required>&#128145;CASADO
+	   </p>
+	   <p style="font-family:Comic Sans MS">SEXO</p>
+	    <P><input type="radio" name="sexo"  
+	   value="MUJER" class="input"  required>MUJER
+	   </p>
+	  <p><input type="radio" name="sexo" 
+	  value="HOMBRE" class="input"  required>HOMBRE
+	   </p>
+	   
+	   
+	   <p class="button" >
+	  <input type="reset" class="boton btn-red" value="BORRAR">
+	 </p>
+	  
+	  <p class="button">
+	   <input type="submit" class="btn btn-green" value="ENVIAR DATOS">
+	   </p>
+	   
+	   
+
+ </form>
+  </div>
+  </body>
+  </html>
